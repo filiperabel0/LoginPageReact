@@ -4,11 +4,29 @@ body {
   width: 100%;
   height: 100vh;
   margin: 0 auto;
-  background-color: #1a1a1a;
 
   display: flex;
   justify-content: center;
   align-items: center;
+
+  background: linear-gradient(-145deg, #000000, #292b47);
+  background-size: 150% 150%;
+  animation: colors 15s ease infinite;
+}
+
+@keyframes colors {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50%{
+    background-position: 100% 50%;
+  }
+
+  100%{
+    background-position: 0% 50%;
+  }
+  
 }
 
 .div-btns {
@@ -37,9 +55,9 @@ h1 {
   justify-content: center;
   flex-direction: column;
 
-  background-color: rgba(49, 49, 49, 0.865);
+  background-color: rgba(43, 43, 43, 0.865);
   border-radius: 15px;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 7px 29px 0px;
 }
 
 input {
