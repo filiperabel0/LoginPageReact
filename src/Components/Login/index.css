@@ -60,29 +60,6 @@ h1 {
   box-shadow: rgba(0, 0, 0, 0.2) 0px 7px 29px 0px;
 }
 
-input {
-  font-family: "Poppins", sans-serif;
-  padding: 10px;
-  border-color: transparent;
-  border-radius: 5px;
-
-  margin-top: 15px;
-
-  transition: all 0.25s;
-
-  background-color: #1a1a1a;
-  color: #646cff;
-}
-input:hover {
-  border-color: #646cff;
-}
-input:focus,
-input:focus-visible {
-  outline: none;
-  /* outline: 4px auto -webkit-focus-ring-color;
-  outline-color: #646cff; */
-}
-
 button {
   margin-top: 50px;
   border-radius: 5px;
