@@ -47,8 +47,8 @@ h1 {
 }
 
 .card-login {
-  width: 350px;
-  height: 350px;
+  width: 400px;
+  height: 400px;
   padding: 50px;
 
   display: flex;
@@ -65,7 +65,7 @@ button {
   border-radius: 5px;
   border-color: transparent;
 
-  width: 40%;
+  width: 45%;
 
   padding: 10px;
   font-size: 1em;

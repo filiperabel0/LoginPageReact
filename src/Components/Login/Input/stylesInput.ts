@@ -1,7 +1,10 @@
-import React from "react";
 import styled from "styled-components";
 
 export const DynamicInput = styled.div`
+  div-input {
+    margin-left: "15px";
+  }
+
   input {
     font-family: "Poppins", sans-serif;
     padding: 10px;

@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import DynamicInput from "./Input/DynamicInput";
+import DynamicButton from "./Button/DynamicButton"
 
 const Login: React.FC = () => {
   return (
@@ -8,14 +9,7 @@ const Login: React.FC = () => {
       <div className="card-login">
         <h1>Best Points</h1>
         <DynamicInput />
-        <div className="div-btns">
-          <button type="submit" className="btnSubmit">
-            Login
-          </button>
-          <button type="submit" className="btnSubmit">
-            Cadastrar
-          </button>
-        </div>
+        <DynamicButton />
       </div>
     </div>
   );
