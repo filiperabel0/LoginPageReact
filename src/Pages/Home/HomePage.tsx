@@ -7,7 +7,12 @@ const Cadastro: React.FC = () => {
     <div className="{className}">
       <div className="card-login">
         <h1>Home</h1>
-        <DynamicButton />
+        <DynamicButton href="/Login">
+          Login {/* children */}
+        </DynamicButton>
+        <DynamicButton href="/SignUp">
+          Cadastrar {/* children */}
+        </DynamicButton>
       </div>
     </div>
   );

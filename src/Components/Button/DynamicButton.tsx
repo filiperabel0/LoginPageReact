@@ -1,17 +1,23 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
-import {DynamicButton} from "./stylesButton";
+import { DynamicButton } from "./stylesButton";
 
-const Button: React.FC = () => {
+type DynamicButtonProps = {
+  children: string;
+  href: string;
+  // deixar type dynamic
+};
+
+const Button = ({ href, children }: DynamicButtonProps) => {
   return (
     <DynamicButton>
       <div className="div-btns">
-        <button type="submit" className="btnSubmit">
-          Login
-        </button>
-        <button type="submit" className="btnSubmit">
-          Cadastrar
-        </button>
+        <Link to={href}>
+          <button type="submit" className="btnSubmit">
+            {children}
+          </button>
+        </Link>
       </div>
     </DynamicButton>
   );

@@ -11,7 +11,12 @@ const Cadastro: React.FC = () => {
         <DynamicInput placeholder="Usuário" type="text"/>
         <DynamicInput placeholder="Email" type="email"/>
         <DynamicInput placeholder="Senha" type="password"/>
-        <DynamicButton />
+        <DynamicButton href="/Login">
+          Login {/* children */}
+        </DynamicButton>
+        <DynamicButton href="/SignUp">
+          Cadastrar {/* children */}
+        </DynamicButton>
       </div>
     </div>
   );
