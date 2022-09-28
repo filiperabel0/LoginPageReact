@@ -1,16 +1,19 @@
 import React from "react";
-
 import { DynamicInput } from "./stylesInput";
 
-const Content: React.FC = () => {
+type DynamicInputProps = {
+  placeholder?: string;
+  type?: string;
+};
+
+const Content = ({ placeholder, type }: DynamicInputProps) => {
   return (
     <DynamicInput>
       <div className="div-input">
-        <input type="text" className="input-user" placeholder="User" />
         <input
-          type="password"
           className="input-password"
-          placeholder="Password"
+          type={type}
+          placeholder={placeholder}
         />
       </div>
     </DynamicInput>

@@ -1,10 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import Login from '../Components/Login/LoginComponent'
-import '../Components/Login/index.css'
+import './index.css'
+import AppRoutes from './routes/app.routes'
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
-    <Login />
+    <AppRoutes />
   </React.StrictMode>
 )
