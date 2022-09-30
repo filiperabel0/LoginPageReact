@@ -6,13 +6,15 @@ const Cadastro: React.FC = () => {
   return (
     <div className="{className}">
       <div className="card-login">
-        <h1>Home</h1>
+        <h2>Faça login ou <br/> Cadastre-se já!</h2>
+        <div className="div-btns">
         <DynamicButton href="/Login">
           Login {/* children */}
         </DynamicButton>
         <DynamicButton href="/SignUp">
           Cadastrar {/* children */}
         </DynamicButton>
+        </div>
       </div>
     </div>
   );
